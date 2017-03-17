@@ -843,7 +843,7 @@ else if($text == "ฉันอยากได้กล้ามแขน"){
  $client->replyMessage(
   array(
     'replyToken' => $event['replyToken'],
-    'messages' => [$messagess,$messages]
+    'messages' => [$messagess]
     )
   );
 }
